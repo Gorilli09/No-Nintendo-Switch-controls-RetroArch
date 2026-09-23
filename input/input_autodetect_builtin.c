@@ -98,10 +98,10 @@ DECL_MENU(11)
 #endif
 
 #define SDL3_DEFAULT_BINDS \
-DECL_BTN_EX(a,           1, "Right Face Button")   /* SDL_GAMEPAD_BUTTON_EAST           */ \
-DECL_BTN_EX(b,           0, "Bottom Face Button")  /* SDL_GAMEPAD_BUTTON_SOUTH          */ \
-DECL_BTN_EX(x,           3, "Top Face Button")     /* SDL_GAMEPAD_BUTTON_NORTH          */ \
-DECL_BTN_EX(y,           2, "Left Face Button")    /* SDL_GAMEPAD_BUTTON_WEST           */ \
+DECL_BTN_EX(a,           1, "East")   /* SDL_GAMEPAD_BUTTON_EAST           */ \
+DECL_BTN_EX(b,           0, "South")  /* SDL_GAMEPAD_BUTTON_SOUTH          */ \
+DECL_BTN_EX(x,           3, "North")     /* SDL_GAMEPAD_BUTTON_NORTH          */ \
+DECL_BTN_EX(y,           2, "West")    /* SDL_GAMEPAD_BUTTON_WEST           */ \
 DECL_BTN_EX(select,      4, "Back")                /* SDL_GAMEPAD_BUTTON_BACK           */ \
 DECL_BTN_EX(start,       6, "Start")               /* SDL_GAMEPAD_BUTTON_START          */ \
 DECL_BTN_EX(up,         11, "D-Pad Up")            /* SDL_GAMEPAD_BUTTON_DPAD_UP        */ \
@@ -114,14 +114,14 @@ DECL_AXIS_EX(l2,        +4, "Left Trigger")        /* SDL_GAMEPAD_AXIS_LEFT_TRIG
 DECL_AXIS_EX(r2,        +5, "Right Trigger")       /* SDL_GAMEPAD_AXIS_RIGHT_TRIGGER    */ \
 DECL_BTN_EX(l3,          7, "Left Stick")          /* SDL_GAMEPAD_BUTTON_LEFT_STICK     */ \
 DECL_BTN_EX(r3,          8, "Right Stick")         /* SDL_GAMEPAD_BUTTON_RIGHT_STICK    */ \
-DECL_AXIS_EX(l_x_plus,  +0, "Left Thumbstick X+")  /* SDL_GAMEPAD_AXIS_LEFTX            */ \
-DECL_AXIS_EX(l_x_minus, -0, "Left Thumbstick X-")  /* SDL_GAMEPAD_AXIS_LEFTX            */ \
-DECL_AXIS_EX(l_y_plus,  +1, "Left Thumbstick Y+")  /* SDL_GAMEPAD_AXIS_LEFTY            */ \
-DECL_AXIS_EX(l_y_minus, -1, "Left Thumbstick Y-")  /* SDL_GAMEPAD_AXIS_LEFTY            */ \
-DECL_AXIS_EX(r_x_plus,  +2, "Right Thumbstick X+") /* SDL_GAMEPAD_AXIS_RIGHTX           */ \
-DECL_AXIS_EX(r_x_minus, -2, "Right Thumbstick X-") /* SDL_GAMEPAD_AXIS_RIGHTX           */ \
-DECL_AXIS_EX(r_y_plus,  -3, "Right Thumbstick Y+") /* SDL_GAMEPAD_AXIS_RIGHTY           */ \
-DECL_AXIS_EX(r_y_minus, +3, "Right Thumbstick Y-") /* SDL_GAMEPAD_AXIS_RIGHTY           */ \
+DECL_AXIS_EX(l_x_plus,  +0, "Left Stick X+")  /* SDL_GAMEPAD_AXIS_LEFTX            */ \
+DECL_AXIS_EX(l_x_minus, -0, "Left Stick X-")  /* SDL_GAMEPAD_AXIS_LEFTX            */ \
+DECL_AXIS_EX(l_y_plus,  +1, "Left Stick Y+")  /* SDL_GAMEPAD_AXIS_LEFTY            */ \
+DECL_AXIS_EX(l_y_minus, -1, "Left Stick Y-")  /* SDL_GAMEPAD_AXIS_LEFTY            */ \
+DECL_AXIS_EX(r_x_plus,  +2, "Right Stick X+") /* SDL_GAMEPAD_AXIS_RIGHTX           */ \
+DECL_AXIS_EX(r_x_minus, -2, "Right Stick X-") /* SDL_GAMEPAD_AXIS_RIGHTX           */ \
+DECL_AXIS_EX(r_y_plus,  -3, "Right Stick Y+") /* SDL_GAMEPAD_AXIS_RIGHTY           */ \
+DECL_AXIS_EX(r_y_minus, +3, "Right Stick Y-") /* SDL_GAMEPAD_AXIS_RIGHTY           */ \
 DECL_MENU_EX(5, "Guide")                           /* SDL_GAMEPAD_BUTTON_GUIDE          */
 
 #if defined(DINGUX) && defined(HAVE_SDL_DINGUX)
