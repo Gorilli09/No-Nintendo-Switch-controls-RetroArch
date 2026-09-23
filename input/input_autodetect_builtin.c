@@ -64,8 +64,8 @@ DECL_AXIS(l_y_plus,  +1) \
 DECL_AXIS(l_y_minus, -1) \
 DECL_AXIS(r_x_plus,  +2) \
 DECL_AXIS(r_x_minus, -2) \
-DECL_AXIS(r_y_plus,  -3) \
-DECL_AXIS(r_y_minus, +3)
+DECL_AXIS(r_y_plus,  +3) \
+DECL_AXIS(r_y_minus, -3)
 
 #ifdef WEBOS
 /* Switch Pro on webOS — working physical remap. */
@@ -92,8 +92,8 @@ DECL_AXIS(l_y_plus,  +1) \
 DECL_AXIS(l_y_minus, -1) \
 DECL_AXIS(r_x_plus,  +2) \
 DECL_AXIS(r_x_minus, -2) \
-DECL_AXIS(r_y_plus,  -3) \
-DECL_AXIS(r_y_minus, +3) \
+DECL_AXIS(r_y_plus,  +3) \
+DECL_AXIS(r_y_minus, -3) \
 DECL_MENU(11)
 #endif
 
@@ -120,8 +120,8 @@ DECL_AXIS_EX(l_y_plus,  +1, "Left Stick Y+")  /* SDL_GAMEPAD_AXIS_LEFTY         
 DECL_AXIS_EX(l_y_minus, -1, "Left Stick Y-")  /* SDL_GAMEPAD_AXIS_LEFTY            */ \
 DECL_AXIS_EX(r_x_plus,  +2, "Right Stick X+") /* SDL_GAMEPAD_AXIS_RIGHTX           */ \
 DECL_AXIS_EX(r_x_minus, -2, "Right Stick X-") /* SDL_GAMEPAD_AXIS_RIGHTX           */ \
-DECL_AXIS_EX(r_y_plus,  -3, "Right Stick Y+") /* SDL_GAMEPAD_AXIS_RIGHTY           */ \
-DECL_AXIS_EX(r_y_minus, +3, "Right Stick Y-") /* SDL_GAMEPAD_AXIS_RIGHTY           */ \
+DECL_AXIS_EX(r_y_plus,  +3, "Right Stick Y+") /* SDL_GAMEPAD_AXIS_RIGHTY           */ \
+DECL_AXIS_EX(r_y_minus, -3, "Right Stick Y-") /* SDL_GAMEPAD_AXIS_RIGHTY           */ \
 DECL_MENU_EX(5, "Guide")                           /* SDL_GAMEPAD_BUTTON_GUIDE          */
 
 #if defined(DINGUX) && defined(HAVE_SDL_DINGUX)
@@ -176,8 +176,8 @@ DECL_AXIS(l_y_plus,  +1) \
 DECL_AXIS(l_y_minus, -1) \
 DECL_AXIS(r_x_plus,  +2) \
 DECL_AXIS(r_x_minus, -2) \
-DECL_AXIS(r_y_plus,  -3) \
-DECL_AXIS(r_y_minus, +3)
+DECL_AXIS(r_y_plus,  +3) \
+DECL_AXIS(r_y_minus, -3)
 
 #define XPERIA_PLAY_DEFAULT_BINDS \
 DECL_BTN_EX(a, 4, "Circle") \
@@ -199,8 +199,8 @@ DECL_AXIS(l_y_plus,  -1) \
 DECL_AXIS(l_y_minus, +1) \
 DECL_AXIS(r_x_plus,  +2) \
 DECL_AXIS(r_x_minus, -2) \
-DECL_AXIS(r_y_plus,  -3) \
-DECL_AXIS(r_y_minus, +3)
+DECL_AXIS(r_y_plus,  +3) \
+DECL_AXIS(r_y_minus, -3)
 #endif
 
 #ifdef __QNX__
@@ -229,8 +229,8 @@ DECL_AXIS(l_y_plus,  +1) \
 DECL_AXIS(l_y_minus, -1) \
 DECL_AXIS(r_x_plus,  +2) \
 DECL_AXIS(r_x_minus, -2) \
-DECL_AXIS(r_y_plus,  -3) \
-DECL_AXIS(r_y_minus, +3)
+DECL_AXIS(r_y_plus,  +3) \
+DECL_AXIS(r_y_minus, -3)
 
 #define QNX_DUALSHOCK_BINDS \
 DECL_BTN(a, 3) \
@@ -257,8 +257,8 @@ DECL_AXIS(l_y_plus,  +1) \
 DECL_AXIS(l_y_minus, -1) \
 DECL_AXIS(r_x_plus,  +2) \
 DECL_AXIS(r_x_minus, -2) \
-DECL_AXIS(r_y_plus,  -3) \
-DECL_AXIS(r_y_minus, +3)
+DECL_AXIS(r_y_plus,  +3) \
+DECL_AXIS(r_y_minus, -3)
 #endif
 
 #define PSPINPUT_DEFAULT_BINDS \
@@ -544,8 +544,8 @@ DECL_AXIS(l_y_plus,  +1) \
 DECL_AXIS(l_y_minus, -1) \
 DECL_AXIS(r_x_plus,  +2) \
 DECL_AXIS(r_x_minus, -2) \
-DECL_AXIS(r_y_plus,  -3) \
-DECL_AXIS(r_y_minus, +3)
+DECL_AXIS(r_y_plus,  +3) \
+DECL_AXIS(r_y_minus, -3)
 
 #define GXINPUT_WIIMOTE_DEFAULT_BINDS \
 DECL_BTN_EX(a, 31, "2") \
@@ -627,8 +627,8 @@ DECL_AXIS(l_y_plus,  +1) \
 DECL_AXIS(l_y_minus, -1) \
 DECL_AXIS(r_x_plus,  +2) \
 DECL_AXIS(r_x_minus, -2) \
-DECL_AXIS(r_y_plus,  -3) \
-DECL_AXIS(r_y_minus, +3)
+DECL_AXIS(r_y_plus,  +3) \
+DECL_AXIS(r_y_minus, -3)
 
 #ifndef _XBOX
 #define XINPUT_DEFAULT_BINDS \
@@ -655,8 +655,8 @@ DECL_AXIS(l_y_plus,  -1) \
 DECL_AXIS(l_y_minus, +1) \
 DECL_AXIS(r_x_plus,  +2) \
 DECL_AXIS(r_x_minus, -2) \
-DECL_AXIS(r_y_plus,  -3) \
-DECL_AXIS(r_y_minus, +3)
+DECL_AXIS(r_y_plus,  +3) \
+DECL_AXIS(r_y_minus, -3)
 #else
 #define XINPUT_DEFAULT_BINDS \
 DECL_BTN(a, 8) \
@@ -681,8 +681,8 @@ DECL_AXIS(l_y_plus,  -1) \
 DECL_AXIS(l_y_minus, +1) \
 DECL_AXIS(r_x_plus,  +2) \
 DECL_AXIS(r_x_minus, -2) \
-DECL_AXIS(r_y_plus,  -3) \
-DECL_AXIS(r_y_minus, +3)
+DECL_AXIS(r_y_plus,  +3) \
+DECL_AXIS(r_y_minus, -3)
 #endif
 
 #define SWITCH_DEFAULT_BINDS \
@@ -758,8 +758,8 @@ DECL_AXIS(l_y_plus,  -1) \
 DECL_AXIS(l_y_minus, +1) \
 DECL_AXIS(r_x_plus,  +2) \
 DECL_AXIS(r_x_minus, -2) \
-DECL_AXIS(r_y_plus,  -3) \
-DECL_AXIS(r_y_minus, +3) \
+DECL_AXIS(r_y_plus,  +3) \
+DECL_AXIS(r_y_minus, -3) \
 DECL_AXIS(l2, +4) \
 DECL_AXIS(r2, +5)
 
